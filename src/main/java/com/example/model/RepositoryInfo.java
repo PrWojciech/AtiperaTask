@@ -1,17 +1,17 @@
-package com.example.zadanieu.model;
-
+package com.example.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
-
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Branch {
+public class RepositoryInfo {
     private String name;
-    private Commit commit;
+    private Owner owner;
+    private boolean fork;
+    private Branch[] branches;
 
     @Data
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public static class Commit {
-        private String sha;
+    public static class Owner {
+        private String login;
     }
 }

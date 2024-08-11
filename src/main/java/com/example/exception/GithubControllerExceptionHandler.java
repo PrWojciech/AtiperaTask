@@ -1,7 +1,7 @@
-package com.example.zadanieu.exception;
+package com.example.exception;
 
 
-import com.example.zadanieu.model.ApiError;
+import com.example.model.ApiError;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

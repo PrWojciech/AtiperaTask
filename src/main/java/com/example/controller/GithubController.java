@@ -1,8 +1,8 @@
-package com.example.zadanieu.controller;
+package com.example.controller;
 
 
-import com.example.zadanieu.model.RepositoryInfo;
-import com.example.zadanieu.servis.GithubService;
+import com.example.model.RepositoryInfo;
+import com.example.service.GithubService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

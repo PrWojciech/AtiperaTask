@@ -1,12 +1,11 @@
-package com.example.zadanieu.servis;
+package com.example.service;
 
 
 
-import com.example.zadanieu.exception.GithubUserNotFoundException;
-import com.example.zadanieu.model.Branch;
-import com.example.zadanieu.model.RepositoryInfo;
+import com.example.exception.GithubUserNotFoundException;
+import com.example.model.Branch;
+import com.example.model.RepositoryInfo;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
