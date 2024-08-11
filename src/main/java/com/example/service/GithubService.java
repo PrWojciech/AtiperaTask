@@ -1,7 +1,6 @@
 package com.example.service;
 
 
-
 import com.example.exception.GithubUserNotFoundException;
 import com.example.model.Branch;
 import com.example.model.RepositoryInfo;
